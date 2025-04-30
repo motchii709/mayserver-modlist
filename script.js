@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   listItems.forEach((item, index) => {
     setTimeout(() => {
       item.classList.add("show");
-    }, index * 80); // 順番にアニメーション
+    }, index * 60);
   });
 });
